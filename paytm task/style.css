@@ -1,0 +1,140 @@
+.navibar{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+.leftside img{
+
+    height: 60px;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.rightside{
+    display: flex;
+
+}
+.centerside{
+    width: 60%;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+li:hover{
+    background-color:  #f6f6f6;
+   
+ }
+.signin{
+    background-color: #00baf2;
+    border-radius: 30px;
+    width: 110px;
+    height: 37px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: #f6f6f6;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+    padding-left: 15px;
+    
+    
+}
+.sn{
+    
+}
+.signin:hover{
+    background-color: #002977;
+}
+.middle{
+    text-align: center;
+    background-color:  #f6f6f6;
+    padding: 1px ;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    
+    
+
+}
+ .sec2{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 500px;
+    display: flex;
+    padding: 40px;
+    position: relative;
+    top: 80px;
+    
+ }
+ .centerleft{
+    width: 40%;
+    /* border: 1px solid red; */
+    height: 500px;
+    
+ }
+ .centerright{
+    width: 60%;
+    height: 500px;
+    /* border: 1px solid red; */
+   
+    }
+    .centerleft img{
+        width: 80px;
+        
+    }
+    .p1{
+        font-family: Inter, sans-serif;
+        font-weight: 600px;
+        font-size: 55px;
+       
+    }
+    .p2{
+        font-family: Inter, sans-serif;
+        font-size: 22px ;
+        
+ 
+
+    }
+    .download{
+        border-radius: 30px;
+        border: none;
+        background-color: black;
+        color: #ffff;
+        width: 250px;
+        height: 40px;
+        font-size: 15px;
+        font-family: Inter, sans-serif;
+        position: relative;
+        top: 30px;
+        cursor: pointer;
+        
+    }
+    .download:hover{
+        background-color: #f6f6f6;
+        color: black;
+        border: 1px solid black;
+     }
+ 
+ .fa-brands{
+    font-size: 15px;
+    padding: 10px;
+ } 
+ .centerright img{
+    width: 600px;
+    height: 550px;
+    position:relative ;
+    left: 180px;
+    
+ }
+ 
